@@ -18,18 +18,23 @@ export default function ResponsiveCarousel() {
       >
         {responsive.map((item) => (
           <div key={item.id}>
-            <div>
-              <a href={item.url}>
+            <a href={item.url}>
+              <div>
                 <Image
                   src={item.imageUrl}
                   height={527} // Desired size with correct aspect ratio
                   width={1268} // Desired size with correct aspect ratio
                   alt="Slider"
                 />
-              </a>
-            </div>
+              </div>
+            </a>
             <div>
-              <h2>{item.title}</h2>
+              <a href={item.url}>
+                <h2 className="hover:underline hover:underline-offset-8">
+                  {item.title}
+                </h2>
+              </a>
+
               <p className="mb-9">
                 {locale == "en-US" ? item.text : item.textspanish}
               </p>
