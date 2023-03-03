@@ -1,11 +1,15 @@
 import Image from "next/image";
 import items from "../../public/Items.json";
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+
 export default function About() {
+  const { t: translate } = useTranslation("about");
   return (
     <div className="mt-[86px] bg-slate-900 min-h-screen">
       <div className="flex">
         <div className="flex-col">
-          <p>{items.items.about.description}</p>
+          <p>{translate("description")}</p>
         </div>
         <Image
           src={"/images/fotoperfil.jpg"}
@@ -29,7 +33,7 @@ export default function About() {
             target="_blank"
             className="bg-teal-600"
           >
-            Send me an email
+            Email
           </a>
         </button>
         <button className="bg-teal-600 rounded-md p-1 mb-3 w-[200px]">
@@ -53,4 +57,12 @@ export default function About() {
       </div>
     </div>
   );
+}
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["about"])),
+    },
+  };
 }

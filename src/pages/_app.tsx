@@ -3,11 +3,12 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 import { Source_Code_Pro } from "next/font/google"; //importar fuente de google fonts
 import Navbar from "components/Navbar";
+import { appWithTranslation } from "next-i18next";
 //_app.tsx recibe todas las pages al renderizarse y les aplica estilos globales
 //o titulos como en mi caso
 const sourceCodePro = Source_Code_Pro({ subsets: ["latin"] }); //fuente google font
 //el subset es obligatorio
-export default function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
@@ -26,3 +27,5 @@ export default function App({ Component, pageProps }: AppProps) {
     </>
   );
 }
+
+export default appWithTranslation(App);

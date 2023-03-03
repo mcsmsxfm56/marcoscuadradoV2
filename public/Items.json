@@ -5,7 +5,8 @@
         "id": 1,
         "title": "Emme3D",
         "text": "In charge of developing the front end, dashboard admin, shopping cart, payment gateway, and part of the backend of Emme3D Emme3D is a small business that sells products impressed in 3D or makes 3D impressions by request. In this project I worked with a team using SCRUM methodology and MERN stack, also we use redux and gitflow",
-        "imageUrl": "/images/emme3d.png"
+        "imageUrl": "/images/emme3d.png",
+        "textspanish": "Encargado de desarrollar el front, el dashboard admin, el carrito del ecommerce de emme3D y parte del backend, un emprendimiento que se dedica a vender productos impresos en 3D, o a hacer impresiones a pedido. En este proyecto trabaje con mis compañeros usando la metodologia SCRUM y usamos el stack Mongo Express React Node, se hizo uso de redux persistence para guardar los datos del usuario y tambien se hizo uso de gitflow para organizarnos el trabajo"
       }
     ],
     "about": {

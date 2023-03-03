@@ -2,9 +2,11 @@ import { Carousel } from "react-responsive-carousel";
 import { items } from "../../public/Items.json";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 export default function ResponsiveCarousel() {
   const { responsive } = items;
+  const { locale } = useRouter();
   return (
     <div className="ml-6 mr-6">
       <Carousel
@@ -26,7 +28,9 @@ export default function ResponsiveCarousel() {
             </div>
             <div>
               <h2>{item.title}</h2>
-              <p className="mb-9">{item.text}</p>
+              <p className="mb-9">
+                {locale == "en-US" ? item.text : item.textspanish}
+              </p>
             </div>
           </div>
         ))}
