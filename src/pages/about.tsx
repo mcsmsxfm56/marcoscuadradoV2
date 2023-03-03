@@ -23,7 +23,7 @@ export default function About() {
       <ul className="flex flex-col items-center list-disc">
         Tech skills:
         {items.items.about.tech.map((skill) => (
-          <li>{skill}</li>
+          <li key={skill}>{skill}</li>
         ))}
       </ul>
       <div className="flex flex-col items-center">
