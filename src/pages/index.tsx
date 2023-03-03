@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import ResponsiveCarousel from "../carrousel/Responsive";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <p className="ml-6">
         with experience building ecommerce's currently looking for work
       </p>
+      <ResponsiveCarousel />
     </div>
   );
 }
