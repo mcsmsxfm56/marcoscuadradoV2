@@ -6,10 +6,10 @@ export default function Navbar() {
   //console.log(asPath); string / o /about
   const handleClick = () => {
     if (locale == "en-US") {
-      push(asPath, undefined, { locale: locales[1] });
+      push(asPath, undefined, { locale: locales![1] });
     }
     if (locale == "es-ES") {
-      push(asPath, undefined, { locale: locales[0] });
+      push(asPath, undefined, { locale: locales![0] });
     }
   };
   //locales es un array ['en-US', 'es-ES']
