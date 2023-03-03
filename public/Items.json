@@ -6,11 +6,11 @@
         "title": "Emme3D",
         "text": "In charge of developing the front end, dashboard admin, shopping cart, payment gateway, and part of the backend of Emme3D Emme3D is a small business that sells products impressed in 3D or makes 3D impressions by request. In this project I worked with a team using SCRUM methodology and MERN stack, also we use redux and gitflow",
         "imageUrl": "/images/emme3d.png",
-        "textspanish": "Encargado de desarrollar el front, el dashboard admin, el carrito del ecommerce de emme3D y parte del backend, un emprendimiento que se dedica a vender productos impresos en 3D, o a hacer impresiones a pedido. En este proyecto trabaje con mis compañeros usando la metodologia SCRUM y usamos el stack Mongo Express React Node, se hizo uso de redux persistence para guardar los datos del usuario y tambien se hizo uso de gitflow para organizarnos el trabajo"
+        "textspanish": "Encargado de desarrollar el front, el dashboard admin, el carrito del ecommerce de emme3D y parte del backend, un emprendimiento que se dedica a vender productos impresos en 3D, o a hacer impresiones a pedido. En este proyecto trabaje con mis compañeros usando la metodologia SCRUM y usamos el stack Mongo Express React Node, se hizo uso de redux persistence para guardar los datos del usuario y tambien se hizo uso de gitflow para organizarnos el trabajo",
+        "url": "https://github.com/MacarenaRodriguez1993/Emme-3D"
       }
     ],
     "about": {
-      "description": "Hello! My name is Marcos and i enjoy developing web pages that are fast and easy to use. My interesting in coding begin in 2015 learning some HTML and CSS but i left it for a couple years and returned to coding in henry bootcamp in 2022. Since i finished the bootcamp in 2023 im looking to get a job as front-end developer and develop more projects for my portfolio",
       "tech": [
         "Javascript",
         "Typescript",

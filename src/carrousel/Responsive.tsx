@@ -19,12 +19,14 @@ export default function ResponsiveCarousel() {
         {responsive.map((item) => (
           <div key={item.id}>
             <div>
-              <Image
-                src={item.imageUrl}
-                height={527} // Desired size with correct aspect ratio
-                width={1268} // Desired size with correct aspect ratio
-                alt="Slider"
-              />
+              <a href={item.url}>
+                <Image
+                  src={item.imageUrl}
+                  height={527} // Desired size with correct aspect ratio
+                  width={1268} // Desired size with correct aspect ratio
+                  alt="Slider"
+                />
+              </a>
             </div>
             <div>
               <h2>{item.title}</h2>
