@@ -1,20 +1,11 @@
 import Image from "next/image";
-
+import items from "../../public/Items.json";
 export default function About() {
   return (
     <div className="mt-[86px] bg-slate-900 min-h-screen">
       <div className="flex">
         <div className="flex-col">
-          <p>
-            Hello! My name is Marcos and i enjoy developing web pages that are
-            fast and easy to use. My interesting in coding begin in 2015
-            learning some HTML and CSS but i left it for a couple years and
-            returned to coding in henry bootcamp in 2022.
-          </p>{" "}
-          <p>
-            Since i finished the bootcamp in 2023 im looking to get a job as
-            front-end developer and develop more projects for my portfolio
-          </p>
+          <p>{items.items.about.description}</p>
         </div>
         <Image
           src={"/images/fotoperfil.jpg"}
@@ -26,11 +17,10 @@ export default function About() {
       </div>
 
       <ul className="flex flex-col items-center list-disc">
-        Tech skills: <li>Javascript</li> <li>Typescript</li>{" "}
-        <li>Tailwind CSS</li> <li>Firebase auth</li>
-        <li>PostgreSQL</li> <li>SQL</li> <li>MongoDB</li> <li>Mongoose</li>{" "}
-        <li>Sequelize</li> <li>Redux Toolkit</li> <li>Redux Persistance</li>{" "}
-        <li>React</li> <li>Express</li>
+        Tech skills:
+        {items.items.about.tech.map((skill) => (
+          <li>{skill}</li>
+        ))}
       </ul>
       <div className="flex flex-col items-center">
         <button className="bg-teal-600 rounded-md p-1 mb-3 w-[200px] mt-3">
