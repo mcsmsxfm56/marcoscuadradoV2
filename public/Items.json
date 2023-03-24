@@ -18,13 +18,19 @@
         "Firebase auth",
         "PostgreSQL",
         "SQL",
+        "Node",
+        "SCRUM",
+        "CSS",
+        "Github",
+        "Git",
         "MongoDB",
         "Mongoose",
         "Sequelize",
         "Redux Toolkit",
         "Redux Persistance",
         "React",
-        "Express"
+        "Express",
+        "Python"
       ]
     }
   }
