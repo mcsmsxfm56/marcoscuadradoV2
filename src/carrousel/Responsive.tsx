@@ -10,7 +10,7 @@ export default function ResponsiveCarousel() {
   return (
     <div className="ml-6 mr-6">
       <Carousel
-        showArrows={false}
+        showArrows={true}
         showIndicators={true}
         infiniteLoop={true}
         dynamicHeight={false}

@@ -8,6 +8,14 @@
         "imageUrl": "/images/emme3d.png",
         "textspanish": "Encargado de desarrollar el front, el dashboard admin, el carrito del ecommerce de emme3D y parte del backend, un emprendimiento que se dedica a vender productos impresos en 3D, o a hacer impresiones a pedido. En este proyecto trabaje con mis compañeros usando la metodologia SCRUM y usamos el stack Mongo Express React Node, se hizo uso de redux persistence para guardar los datos del usuario y tambien se hizo uso de gitflow para organizarnos el trabajo",
         "url": "https://github.com/MacarenaRodriguez1993/Emme-3D"
+      },
+      {
+        "id": 2,
+        "title": "FlexW",
+        "text": "In charge of developing the front end, dashboard admin, and part of the backend of FlexW FlexW, FlexW its a webapp focused on job offers for events and for business to organize and employ people",
+        "imageUrl": "/images/flexw.png",
+        "textspanish": "Encargado de desarrollar el front, el dashboard admin y parte del backend, flexw es una webapp enfocada en que empresas organizadoras de eventos puedan contratar empleados temporales para sus eventos",
+        "url": "https://fleexw.vercel.app/"
       }
     ],
     "about": {
@@ -30,7 +38,9 @@
         "Redux Persistance",
         "React",
         "Express",
-        "Python"
+        "Python",
+        "NextJS",
+        "Prisma"
       ]
     }
   }
